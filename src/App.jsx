@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './pages/components/Home/Navbar'
 import Hero from './pages/components/Home/Hero'
 import Services from './pages/components/Home/Services'
-import About from './pages/components/Home/About'
+import FAQ from './pages/components/Home/FAQ'
 import Contact from './pages/components/Home/Contact'
 import Footer from './pages/components/Home/Footer'
 
@@ -14,7 +14,7 @@ function App() {
 			<div id="services">
 				<Services />
 			</div>
-			<About />
+			<FAQ />
 			<Contact />
 			<Footer />
 		</>

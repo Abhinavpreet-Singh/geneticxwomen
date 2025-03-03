@@ -11,7 +11,9 @@ function App() {
 		<>
 			<Navbar />
 			<Hero />
-			<Services />
+			<div id="services">
+				<Services />
+			</div>
 			<About />
 			<Contact />
 			<Footer />

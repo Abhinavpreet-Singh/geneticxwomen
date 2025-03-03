@@ -1,9 +1,16 @@
-import React from 'react'
+import Spline from '@splinetool/react-spline';
 
-function Hero() {
-  return (
-    <div>Hero</div>
-  )
+export default function Hero() {
+	return (
+		<div className="flex w-full h-[100vh]">
+			<div className="part-1 w-[50vw] h-[100vh] ">
+				<div className="bg-black h-15 w-48 absolute z-1 bottom-[-35px] right-[50%]"></div>
+				<Spline scene="https://prod.spline.design/GOud1De8DJCvmcgK/scene.splinecode" className='relative' />
+			</div>
+			<div className="part-2 w-[50vw] text-white flex flex-col justify-center items-center">
+				<p className=' text-6xl'>DECODE YOUR DNA</p>
+				<button className='my-10 text-[20px] px-6 py-3 border rounded-[30px]'>Get Started</button>
+			</div>
+		</div>
+	);
 }
-
-export default Hero
